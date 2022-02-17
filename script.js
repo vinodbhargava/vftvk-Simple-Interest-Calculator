@@ -35,7 +35,7 @@ function compute() {
         var interestDetails = "If you deposit <span class='result-span'>"+principal
             +"</span>,<br /> at an interest rate of <span class='result-span'>"+rate
             +"</span>.<br />You will receive an amount of <span class='result-span'>"+interest
-            +"</span>,<br />in the year <span class='result-span'>"+year+"</span><br />"
+            +"%</span>,<br />in the year <span class='result-span'>"+year+"</span><br />"
         
         // show result on screen
         document.getElementById("result").innerHTML = interestDetails;
@@ -61,5 +61,5 @@ function isPrincipalValid(amount) {
  */
 function showRate() {
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText = rateval +" %";
+    document.getElementById("rate_val").innerText = rateval +"%";
 }
