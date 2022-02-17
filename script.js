@@ -34,8 +34,8 @@ function compute() {
         // create dynamic html snippet for showing result back on screen
         var interestDetails = "If you deposit <span class='result-span'>"+principal
             +"</span>,<br /> at an interest rate of <span class='result-span'>"+rate
-            +"</span>.<br />You will receive an amount of <span class='result-span'>"+interest
-            +"%</span>,<br />in the year <span class='result-span'>"+year+"</span><br />"
+            +"%</span>.<br />You will receive an amount of <span class='result-span'>"+interest
+            +"</span>,<br />in the year <span class='result-span'>"+year+"</span><br />"
         
         // show result on screen
         document.getElementById("result").innerHTML = interestDetails;
