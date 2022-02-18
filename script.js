@@ -17,7 +17,7 @@ function compute() {
 
     if(!isPrincipalValid(principal)) {
         alert('Enter a positive number');
-        document.getElementById("principal").focus;
+        document.getElementById("principal").focus();
     } else {
         // rate selected by user
         var rate = document.getElementById("rate").value;
