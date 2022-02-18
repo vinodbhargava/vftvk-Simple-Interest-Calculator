@@ -13,3 +13,28 @@ h1{color:grey;font-family:verdana}
 .result-span {
     background-color: yellow;
 }
+
+.section {
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.field-set-no-border {
+    border: 0;
+}
+
+.form-label {
+    text-align: left;
+    clear: both;
+    float:left;
+    margin-right:15px;
+    width: 100px;
+}
+
+.form-label-button {
+    text-align: left;
+    clear: both;
+    float:left;
+    margin-right:15px;
+    width: 100%;
+}
